@@ -1,0 +1,28 @@
+{
+  "name": "react-leaflet-image-overlay-rotated",
+  "version": "1.0.0",
+  "description": "React wrapper for leaflet-image-overlay-rotated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "leaflet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-stewart/react-leaflet-image-overlay-rotated.git"
+  },
+  "author": "Alex Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-stewart/react-leaflet-image-overlay-rotated/issues"
+  },
+  "homepage": "https://github.com/alex-stewart/react-leaflet-image-overlay-rotated#readme",
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "leaflet-imageoverlay-rotated": "^0.2.1",
+    "react-leaflet": "^2.7.0"
+  }
+}
