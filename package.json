@@ -2,7 +2,7 @@
   "name": "react-leaflet-image-overlay-rotated",
   "version": "1.0.0",
   "description": "React wrapper for leaflet-image-overlay-rotated",
-  "main": "index.js",
+  "main": "ImageOverlayRotated.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
