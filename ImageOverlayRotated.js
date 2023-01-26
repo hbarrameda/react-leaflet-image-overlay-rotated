@@ -1,13 +1,7 @@
-import { MapLayer, withLeaflet } from "react-leaflet";
 import L from "leaflet";
 import "leaflet-imageoverlay-rotated";
 
-import {
-  createElementObject,
-  createLayerComponent,
-  extendContext,
-  updateMediaOverlay,
-} from "@react-leaflet/core";
+import { createElementObject, extendContext } from "@react-leaflet/core";
 
 function createImageOverlayRotated(
   { url, topLeft, topRight, bottomLeft, ...options },
