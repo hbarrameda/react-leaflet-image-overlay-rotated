@@ -1,7 +1,13 @@
 import L from "leaflet";
 import "leaflet-imageoverlay-rotated";
 
-import { createElementObject, extendContext } from "@react-leaflet/core";
+import {
+  createElementObject,
+  extendContext,
+  createElementHook,
+  createPathHook,
+  createContainerComponent,
+} from "@react-leaflet/core";
 
 function createImageOverlayRotated(
   { url, topLeft, topRight, bottomLeft, ...options },
